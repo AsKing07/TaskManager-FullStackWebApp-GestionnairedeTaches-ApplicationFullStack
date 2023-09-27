@@ -1,85 +1,89 @@
-# Gestionnaire de Tâches FullStack
+# FullStack Task Manager
 
+This project is a FullStack task manager developed by [Charbel SONON](https://github.com/AsKing07). It is designed to help you organize and track your tasks efficiently and was created within a learning context.
 
+## Online Demo
 
-Ce projet est un gestionnaire de tâches FullStack développé par [Charbel SONON](https://github.com/AsKing07). Il est conçu pour vous aider à organiser et suivre vos tâches de manière efficace et a été réalisé dans un cadre d'apprentissage
+You can try a demo of the project by following this link: [Task Manager Demo](https://taskmanager-asking.vercel.app/).
 
-## Démo en ligne
+## Images
 
-Vous pouvez essayer une démo du projet en suivant ce lien : [Démo du Gestionnaire de Tâches](https://taskmanager-asking.vercel.app/).
+<div style="display: flex; justify-content: space-between;">
+  <img src="img4.jpg" alt="Image 4" width="300">
+  <img src="img2.jpg" alt="Image 2" width="300">
+  <img src="img3.jpg" alt="Image 3" width="300">
+</div>
 
-## Technologies Utilisées
+## Technologies Used
 
-Ce projet a été développé en utilisant les technologies suivantes :
+This project was developed using the following technologies:
 
 - Vue.js
 - Node.js
 - MongoDB
 - Express.js
-- Vercel (pour le déploiement de la démo)
+- Vercel (for demo deployment)
 
 ## Configuration
 
-Dans le fichier `.env`, vous devez configurer les variables d'environnement suivantes :
+In the `.env` file, you need to configure the following environment variables:
 
-- `MONGODB_URI` : Lien de connexion à la base de données MongoDB.
-- `JWT_SECRET` : Code secret pour le décodage des tokens JWT.
-- `GMAIL_SECRET` : Code de l'application Gmail pour l'envoi de mails.
+- `MONGODB_URI`: MongoDB database connection link.
+- `JWT_SECRET`: Secret code for decoding JWT tokens.
+- `GMAIL_SECRET`: Gmail application code for sending emails.
 
-## Structure du Projet
+## Project Structure
 
-Le dossier principal est nommé `GestionnaireDeTaches-FullStack-App` et est composé de deux sous-dossiers :
+The main folder is named `FullStack-TaskManager-App` and consists of two subfolders:
 
 ### Backend
 
-Le contenu du dossier `backend` comprend :
+The contents of the `backend` folder include:
 
--`.env` : fichier des variables d'environnement.
-- `controllers` : Contrôleurs de l'application.
-- `dist` : Fichiers de distribution générés lors de la construction.
-- `middleware` : Middlewares utilisés dans l'application, en particulier le middlewares d'authentification.
-- `models` : Modèles de données MongoDB.
-- `routes` : Définition des routes de l'API.
-- `server.js` : Script de démarrage du serveur.
-- `app.js` : Fichier principal de l'application backend.
+- `.env`: Environment variables file.
+- `controllers`: Application controllers.
+- `dist`: Distribution files generated during build.
+- `middleware`: Middlewares used in the application, especially the authentication middleware.
+- `models`: MongoDB data models.
+- `routes`: API route definitions.
+- `server.js`: Server startup script.
+- `app.js`: Main backend application file.
 
 ### Frontend
 
-Le contenu du dossier `frontend` comprend :
+The contents of the `frontend` folder include:
 
-- `dist` : Fichiers de distribution générés lors de la construction.
-- `node_modules` : Dépendances Node.js.
-- `public` : Fichiers statiques publics.
-- `src` : Code source de l'application Vue.js.
-- `README.md` : Ce fichier README.
-- `vue.config.js` : Configuration spécifique à Vue.js.
+- `dist`: Distribution files generated during build.
+- `node_modules`: Node.js dependencies.
+- `public`: Public static files.
+- `src`: Source code of the Vue.js application.
+- `README.md`: This README file.
+- `vue.config.js`: Vue.js-specific configuration.
 
 ## Installation
 
-Pour exécuter ce projet localement, suivez ces étapes :
+To run this project locally, follow these steps:
 
-1. Clonez ce dépôt : `git clone https://github.com/AsKing07/TaskManager-FullStackWebApp-GestionnairedeTaches-ApplicationFullStack.git`.
-2. Accédez au dossier backend : `cd backend`.
-3. Installez les dépendances : `npm install`.
-4. Accédez au dossier frontend : `cd ../frontend`.
-5. Installez les dépendances : `npm install`.
+1. Clone this repository: `git clone https://github.com/AsKing07/TaskManager-FullStackWebApp-GestionnairedeTaches-ApplicationFullStack.git`.
+2. Navigate to the backend folder: `cd backend`.
+3. Install dependencies: `npm install`.
+4. Navigate to the frontend folder: `cd ../frontend`.
+5. Install dependencies: `npm install`.
 
-## Utilisation
+## Usage
 
-- Backend : Exécutez `npm start` dans le dossier backend pour démarrer le serveur (Port 3000 par défaut).
-- Frontend : Exécutez `npm run serve` dans le dossier frontend pour démarrer l'application Vue.js en mode développement (Port 8080 par défaut).
-- Assurez-vous que le serveur backend est en cours d'exécution avant de lancer l'application frontend.
-- L'application sera accessible à l'adresse `http://localhost:8080/`.
-
-
+- Backend: Run `npm start` in the backend folder to start the server (Port 3000 by default).
+- Frontend: Run `npm run serve` in the frontend folder to start the Vue.js application in development mode (Port 8080 by default).
+- Make sure the backend server is running before launching the frontend application.
+- The application will be accessible at `http://localhost:8080/`.
 
 ## Contribution
 
-N'hésitez pas à contribuer ou à signaler des problèmes et à faire des suggestions d'amélioration. Bonne utilisation !
+Feel free to contribute, report issues, and make improvement suggestions. Enjoy using it!
 
-## Auteur
+## Author
 [Charbel SONON](https://github.com/AsKing07)
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier [MIT](LICENSE) pour plus de détails.
+This project is licensed under the MIT License. See the [MIT](LICENSE) file for more details.
