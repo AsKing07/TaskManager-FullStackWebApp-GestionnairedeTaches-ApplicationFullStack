@@ -9,9 +9,9 @@ You can try a demo of the project by following this link: [Task Manager Demo](ht
 ## Images
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="img4.png" alt="Image 4" width="300">
-  <img src="img2.png" alt="Image 2" width="300">
-  <img src="img3.png" alt="Image 3" width="300">
+  <img src="img4.png" alt="Image 4" width="500">
+  <img src="img2.png" alt="Image 2" width="500">
+  <img src="img3.png" alt="Image 3" width="500">
 </div>
 
 ## Technologies Used
